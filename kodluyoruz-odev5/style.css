@@ -1,0 +1,209 @@
+
+html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+ padding: 0;
+}
+
+
+table,th,td,tr {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+table {
+
+    width:75% ;
+    font-size: 1.3em;
+
+}
+
+th,td
+{
+   
+    padding: 10px;
+   
+}
+
+thead tr {
+
+    background: green;
+    color: white;
+}
+tbody tr {
+
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background: #cecece;
+}
+
+tbody tr:hover {
+    background: #ddd;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+
+input {
+
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1em;
+    margin: 4px 0px 10px 0px;
+    border: 2px solid rgb(48, 75, 7); 
+
+}
+
+select {
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1em;
+    margin: 5px 0px 10px 0px;
+    border: 2px solid rgb(34, 56, 1);
+}
+
+label {
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 1em;
+    margin: 5px 0px 10px 0px;
+}
+
+input:focus {
+    outline: 0;
+    border: 2px solid rgb(23, 153, 6);
+}
+
+.text-center {
+
+    text-align: center;
+}
+
+.heagind-small {
+
+    font-size: 1.25rem;
+}
+
+.heagind-medium {
+    font-size: 1.5rem;
+}
+
+.heagind-big {
+    font-size: 1.75rem;
+ }
+
+ .bg-dark-blue {
+
+    background: #00284b;
+ }
+ .bg-light-blue {
+    background: #336ea2;
+ }
+
+ #navbar {
+
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+ }
+
+ a {
+    
+    padding: 6px 10px;
+    text-decoration: none;
+    color: #fff;
+ }
+ 
+ #navbar ul {
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+ }
+
+ #navbar ul li a.active,
+ #navbar ul li a:hover {
+
+    background-color: rgb(12, 199, 58);
+
+
+ }
+
+ .container {
+
+    max-width: 1100px;
+    margin: 0 auto;
+ }
+ 
+
+ .footer h1 {
+    
+    text-align: center;
+   font-size: small;
+ }
+
+ 
+
+.background {
+    color: rgb(27, 255, 20);
+    background-color: rgb(22, 75, 134);
+  text-align: center;
+  margin: 0px 500px 10px 500px;
+display: grid;
+height: 60vh;
+
+
+}
+
+ .image {
+
+        background: url(img/pexels-photo-2961946.jpeg);
+       padding: 70px;
+       border-radius: 10px;
+       background-attachment: local;
+      
+
+ }
+
+ .p2 {
+
+    overflow: scroll;
+    background: #ddd;
+    height: 150px;
+    
+    margin: 0px 400px 10px 400px;
+    }
+
+    .button {
+text-align: center;
+    }
+
+    .p3 {
+   
+        height: 100px;
+        
+        margin: 0px 300px 10px 300px;
+        }
+
+.color-text {
+    color: rgb(27, 255, 20);
+    background-color: rgb(22, 75, 134);
+    text-align: center;
+    margin: 0px 400px 10px 400px;
+
+}
